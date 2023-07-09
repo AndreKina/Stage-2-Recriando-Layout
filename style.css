@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  background-color: #2f2e41;
+
+  font-family: "JetBrains Mono", Arial;
+  color: white;
+}
+
+.page {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 0 110px;
+  width: 1200px;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 70px;
+}
+
+ul.options {
+  margin: 0;
+  display: flex;
+
+  gap: 64px;
+}
+
+li {
+  list-style: none;
+  color: white;
+
+  cursor: pointer;
+}
+
+li:hover {
+  font-weight: bold;
+  color: #c2c2c2;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 82px;
+
+  margin-top: 101px;
+  margin-bottom: 157px;
+}
+
+p {
+  text-align: center;
+}
+
+div p + p {
+  margin-top: 60px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+
+  margin-bottom: 59px;
+  display: inline;
+}
+
+h1 span {
+  color: #00bfa6;
+  display: inline-block;
+}
+
+.body p {
+  font-family: "Open Sans", Arial;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #c2c2c2;
+}
+
+p span {
+  color: #00bfa6;
+  font-weight: bold;
+}
+
+.padlock {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  width: 51px;
+
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.line {
+  border: 1px solid #00bfa6;
+  width: 568px;
+  margin-bottom: 27px;
+}
+
+p a {
+  text-decoration: none;
+  color: white;
+}
